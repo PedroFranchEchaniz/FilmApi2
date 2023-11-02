@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InfoFilmComponent } from './components/info-film/info-film.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,
+    InfoFilmComponent
   ],
   imports: [
     BrowserModule,
