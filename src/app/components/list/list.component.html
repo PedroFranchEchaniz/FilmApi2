@@ -1,3 +1,6 @@
 <div class="row">
     <app-detail *ngFor="let f of filmList" [film]="f" class="col-3 mb-3"></app-detail>
 </div>
+
+<ngb-pagination [collectionSize]="70" [(page)]="page" aria-label="Default pagination"
+    (click)="paginar()"></ngb-pagination>
