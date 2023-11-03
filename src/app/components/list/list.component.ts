@@ -28,7 +28,7 @@ export class ListComponent implements OnInit {
     })
   }
 
-  abrirDetalle(film: Film){
-    this.router.navigate(['/detalle', film.id])
+  abrirDetalle(film: Film) {
+    this.router.navigate(['/detalle', film.id]);
   }
 }
