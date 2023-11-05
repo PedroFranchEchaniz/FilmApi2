@@ -1,1 +1,9 @@
-<p>{{film.title}}</p>
+<div class="row">
+<div class="col-4 mt-5 ms-5">
+<h1>{{film.title}}</h1>
+<img [src]=getImg() width="300" height="450">
+</div>
+<div class="col-6 mt-5">
+    <p>{{film.overview}}</p>
+</div>
+</div>
